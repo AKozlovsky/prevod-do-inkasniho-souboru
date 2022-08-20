@@ -1,0 +1,146 @@
+/* MLP Design (http://www.mlpdesign.tk) */
+
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  color: #666;
+  font-size: 10pt;
+  text-align: center;
+}
+
+a:link,
+a:visited,
+a:active {
+  background-color: inherit;
+  text-decoration: none;
+  color: #666;
+}
+a:hover {
+  background-color: inherit;
+  text-decoration: underline;
+  color: #cc6600;
+}
+
+h1 {
+  font-size: 10pt;
+  background-color: inherit;
+  color: #cc6600;
+  margin: 0;
+}
+
+h2 {
+  font-size: 90%;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+h3 {
+  font-size: 8pt;
+  margin: 0;
+}
+
+h4 {
+  font-size: 250%;
+  font-weight: bold;
+  background-color: inherit;
+  color: #cc6600;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin-left: 10px;
+  padding: 1px;
+}
+
+li {
+  padding: 0 0 8px 15px;
+  background: url(images/arw.gif) 0 1px no-repeat;
+}
+
+#header {
+  width: 750px;
+  height: 150px;
+  margin: auto;
+  background-image: url(images/bg.gif);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  border: #ddd 1px solid;
+}
+
+#menu {
+  float: right;
+  width: 200px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#main {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  background-color: #eee;
+  color: inherit;
+  border: #ddd 1px solid;
+}
+
+#content {
+  width: 500px;
+  float: left;
+  margin: 5px;
+  padding: 10px;
+  background-color: #fff;
+  border: #ccc 1px solid;
+  color: inherit;
+  font-size: 90%;
+  text-align: justify;
+}
+
+#sidebar {
+  width: 190px;
+  height: 580px;
+  float: left;
+  margin: 8px 0 0 8px;
+  font-size: 80%;
+  text-align: justify;
+}
+
+#footer {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 10px 0 10px 0;
+  background-color: #eee;
+  font-size: 80%;
+  color: inherit;
+  border: #ddd 1px solid;
+  clear: both;
+}
+
+.footer {
+  height: 1px;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  margin-left: 5px;
+  margin-top: 45px;
+  text-align: left;
+}
+
+.subside {
+  padding-top: 10px;
+  border-bottom: #ccc 1px dashed;
+}
+
+.img {
+  float: right;
+  margin-left: 5px;
+  border: 0;
+}
